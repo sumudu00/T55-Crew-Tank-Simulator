@@ -29,54 +29,6 @@ public class bulletChoise : MonoBehaviour
         particleSystem2 = GameObject.Find("Particle_Smoke").GetComponent<ParticleSystem>();
     }
 
-
-    //void Update()
-    //{
-    //    if (Input.GetKey(KeyCode.E))
-    //    {
-    //        bulletHe = true;
-
-    //    }
-    //    if (Input.GetKey(KeyCode.Q))
-    //    {
-    //        bulletHeat = true;
-
-    //    }
-    //    if (Input.GetKey(KeyCode.R))
-    //    {
-    //        loaded = true;
-    //    }
-
-
-    //    if (Input.GetKey(KeyCode.F))
-    //    {
-    //        velocitymps = velocitykmph * 1000f / 3600f;
-    //        if (loaded)
-    //        {
-    //            if (bulletHe)
-    //            {
-    //                Debug.Log("bulletHe");
-    //                GameObject bullet = Instantiate(spawnItem1, spawnPoint.position, spawnPoint.rotation);      //Spawning Object
-    //                rb = bullet.GetComponent<Rigidbody>();
-    //                rb.AddForce(spawnPoint.forward * velocitymps, ForceMode.VelocityChange);
-    //                loaded = false;
-    //                particleSystem1.Play();
-    //                particleSystem2.Play();
-    //            }
-    //            else if (bulletHeat) 
-    //            {
-    //                Debug.Log("bulletHeat");
-    //                GameObject bullet = Instantiate(spawnItem2, spawnPoint.position, spawnPoint.rotation);      //Spawning Object
-    //                rb = bullet.GetComponent<Rigidbody>();
-    //                rb.AddForce(spawnPoint.forward * velocitymps/2, ForceMode.VelocityChange);
-    //                loaded = false;
-    //                particleSystem1.Play();
-    //                particleSystem2.Play();
-    //            }
-
-    //        }
-    //    }
-    //}
     void Update()
     {
         // Check if Q key is pressed to select HEAT ammo
